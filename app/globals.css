@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --forange:250, 74, 12;
+  --fdblue:37, 43, 66;
+  --fgrey: 115, 115, 115;
+  --fwhite:246, 246, 246;
+
+
+
+}
+
+
+
+body {
+  
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
