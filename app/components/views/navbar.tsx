@@ -39,6 +39,16 @@ export const Navbar = () => {
               </Link>
             </li>
           </ul>
+          <div className="md:hidden flex relative w-[20px] h-[16px] md:w-[206px] md:h-[101px]">
+            <Image
+              src="/assets/hamburger.png"
+              alt="logo"
+              fill={true}
+              style={{
+                objectFit: "cover",
+              }}
+            />
+          </div>
         </div>
       </Wrapper>
     </div>

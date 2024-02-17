@@ -5,8 +5,8 @@ export const Footer = () => {
   return (
     <div className="h-[200px] flex items-center">
       <Wrapper>
-        <div className="flex px-[80px] items-center justify-between">
-          <div className="relative w-[206px] h-[101px]">
+        <div className="flex px-[80px] flex-col md:flex-row items-center justify-between">
+          <div className="hidden md:flex relative w-[206px] h-[101px]">
             <Image
               src="/assets/logo.png"
               alt="logo"
@@ -37,7 +37,7 @@ export const Footer = () => {
             />
           </div>
           <div
-            className="text-[12px] font-mon text-[#5C5C5C]"
+            className="text-[12px] font-mon text-[#5C5C5C] text-center mt-[10px] md:mt-0"
           >
             <span>Copywright 2020 Bella Onojie.com</span>
           </div>
